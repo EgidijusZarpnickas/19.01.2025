@@ -1,0 +1,360 @@
+*{
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+}
+
+
+.pagrindinis {
+        max-width: 1280px;
+        height: 832px;
+        display: flex;
+        position: relative;
+        background:  linear-gradient( to right, #040006, #62005F);
+}
+
+header {
+    width: 1080px;
+    height: 27.5px;
+    top: 39px;
+    right: 100px;
+    position: absolute;
+}
+
+.logo {
+    width: 94.1px;
+    height: 27.5px;
+    background: none;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.Group_1{
+    width: 26.11px;
+    height: 25.45px;
+    rotate: 4.68deg;
+    position: absolute;
+    display: flex;
+    
+}
+
+header .logo p{
+    width: 58px;
+    height: 16px;
+    top: 5.75px;
+    right: 0;
+    font-size: 22px;
+    font-weight: 700;
+    color: #FFFFFF;
+    display: flex;
+    position: absolute;
+    margin: 0;
+    align-items: center;
+}
+
+nav{
+    width: 779px;
+    height: 20px;
+    top: 2px;
+    right: 0px;
+    display: flex;
+    position: absolute;
+    gap: 188px; 
+}
+
+
+.Frame_4{
+    width: 478px;
+    height: 12px;
+    top: 4px;
+    left: 0;
+    gap: 55px; 
+    display: flex;
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Frame_5{
+    width: 113px;
+    height: 20px;
+    top: 0;
+    right: 0;
+    gap: 9px;
+    position: absolute;
+    display: flex;
+}
+
+.Contact_us {
+    width: 84px;
+    height: 12px;
+    top: 4px;
+    left: 0;
+    position: absolute;
+    padding-top: 0px;
+    color: #FFFFFF;
+    align-content: center;
+    vertical-align: middle;
+
+   
+}
+
+
+.arrow{
+    width: 20px;
+    height: 20px;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.menu_hover{
+   width: 13.65px;
+   height: 12.75px; 
+   top: 5px;
+   left: 280px;
+    rotate: 7.82deg;
+   position: absolute;
+   
+  
+}
+
+.menu_hover:hover {
+    animation-name: grow;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+    animation-direction: normal;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes grow {
+    50%{transform: scale(2,2);}
+  }
+
+
+
+
+.menu_hover img {
+    width: 13.65px;
+    height: 12.75px; 
+
+}
+
+
+
+
+
+
+
+/*------------------------------------------------------------------*/
+
+
+
+.text_block {
+    width: 516px;
+    height: 416px;
+    left: 100px;
+    top: 185px;
+    display: flex;
+    position: absolute;
+
+}
+
+.Frame_2{
+    width: 516px;
+    height: 317px;
+    top: 0;
+    right: 0;
+}
+
+.Frame_1{
+    width: 516px;
+    height: 245px;
+    top: 0;
+    right: 0;
+}
+
+.welcome{
+    width: 92px;
+    height: 28px;
+    left: 0;
+    top: 0;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    background: linear-gradient(to right, #FD7452,#FF4265);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.Warmth{
+    width: 516px;
+    height: 189px;
+    margin-top: 28px;
+    left: 0;
+    font-size: 52px;
+    font-weight: 300;
+    line-height: 62.93px;
+    color: #FFFFFF;
+}
+
+.Warmth span{
+    font-weight: 800;
+    background: linear-gradient(to right, #FD7452,#FF4265);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Discover{
+    width: 496px;
+    height: 48px;
+    left: 0;
+    bottom: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+
+.link_block {
+    width: 304px;
+    height: 48px;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    position: absolute;
+   
+}
+
+
+.btn {
+    width: 159px;
+    height: 48px;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, #FF5A37, #FF3778);
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FFFFFF;
+
+    
+}
+
+
+.link{
+    width: 129px;
+    height: 10px;
+    top: 19px;
+    right: 0;
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    text-decoration: underline solid;
+    color: #FFFFFF;
+}
+
+
+
+
+/*----------------------------------------------------------------*/
+
+
+.pet {
+    width: 545.89px;
+    height: 684px;
+    top: 148px;
+    right: 105px;
+    display: flex;
+    position: absolute;
+
+}
+
+.dog5{
+    width: 57px;
+    height: 57px;
+    bottom: 111px;
+    left: 0px;
+    position: absolute;
+    z-index: 2;
+}
+
+.dog4{
+    width: 52px;
+    height: 52px;
+    bottom: 490px;
+    right: 0;
+    position: absolute;
+    z-index: 2;
+}
+
+.dog3{
+    width: 80px;
+    height: 80px;
+    bottom: 556px;
+    right: 102px;
+    position: absolute;
+    z-index: 2;
+}
+
+
+.dog2{
+    width: 67.61px;
+    height: 67.61px;
+    bottom: 420.92px;
+    right: 436.92px;
+    position: absolute;
+    z-index: 2;
+}
+
+
+.dog1{
+    width: 86px;
+    height: 86px;
+    top: 0;
+    right: 351px;
+    position: absolute;
+    z-index: 2;
+}
+
+.dog{
+    width: 513px;
+    height: 513px;
+    bottom: 0;
+    left: 26px;
+    position: absolute;
+    z-index: 2;
+
+
+}
+
+.background{
+    width: 516px;
+    height: 636px;
+    bottom: 0;
+    left: 27px;
+    position: absolute;
+    background: linear-gradient(to top, #140119, #5B0E4E);
+    z-index: 1;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+    box-shadow: #FFC93E ;
+    box-shadow: 0px 4px 250px 0px #FFC93E40
+
+}   
+
+
